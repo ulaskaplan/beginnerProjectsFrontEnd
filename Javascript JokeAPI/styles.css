@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 193, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: black;
+    height: 60vh;
+    width: 45vw;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.emoji {
+   font-size: 95px;
+}
+
+p {
+    color: white;
+}
+
+.btn {
+    width: 60%;
+    height: 8vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: rgb(235, 193, 43);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:rgb(216, 188, 85);
+    transition: 0.5s ease;
+}
